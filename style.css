@@ -17,3 +17,16 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+
+#Wrapper {
+   width: 1000px;
+   margin: auto;
+}
+
+h1 {
+   color: 000000;
+}
+
+body {
+   background-color: #2052F4;
+}
