@@ -4,19 +4,19 @@ html {
 }
 
 #wrapper {
-  width: 80%;
+  width: 100%;
   margin: auto;
-  background-color: #FFFFFF;
+  background-color: #E4F4CE;
 }
 
 header {
   width: 100%;
-  background-color: #2052F4;
   margin: 1%;
   padding: 1%;
 }
 h1 {
   text-align: center;
+
 }
 
 nav {
@@ -31,6 +31,7 @@ nav {
   float:right;
   margin: 1%;
   padding: 1%;
+  margin-right: 10%;
 }
 
 #plaatje {
@@ -39,6 +40,7 @@ nav {
     float:left;
     margin: 1%;
     padding: 1%;
+    margin-left: 10%;
   }
 
 article {
@@ -51,9 +53,26 @@ article {
 }
 
 footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
   width: 100%;
-  background-color: #000000;
-  clear:both;
-  margin: 1%;
-  padding: 1%;
+  background-color: #5274DB;
+  color: black;
+  text-align: center;
+  height: 70px;
+  margin-top: 0;
+  padding: 20px;
+  font-size: 17px;
+  }
+
+  footer a{
+     color:black;
+    
+   }
+h4 {
+  font-family: Arial;
+   font-size: 9pt;
+   color: white;
 }
