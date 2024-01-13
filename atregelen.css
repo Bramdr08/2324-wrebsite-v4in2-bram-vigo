@@ -10,11 +10,14 @@ html {
 }
 
 header {
-  width: 100%;
-  background-color: #2052F4;
+  width: 98%;
   margin: 1%;
   padding: 1%;
 }
+h1 {
+  text-align: center;
+}
+
 nav {
   width: 100%;
   background-color: #2591F5;
@@ -38,9 +41,26 @@ article {
 }
 
 footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
   width: 100%;
-  background-color: #000000;
-  clear:both;
-  margin: 1%;
-  padding: 1%;
+  background-color: #5274DB;
+  color: black;
+  text-align: center;
+  height: 70px;
+  margin-top: 0;
+  padding: 20px;
+  font-size: 17px;
+  }
+
+  footer a{
+     color:black;
+    
+   }
+h4 {
+  font-family: Arial;
+   font-size: 9pt;
+   color: white;
 }
