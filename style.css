@@ -24,49 +24,61 @@ h1 {
 nav {
   width: 98%;
   background-color: #2591F5;
-  margin: 1%;
   padding: 1%;
 }
+h3 {
+  text-align: center;
+
+}
+
 body {
   background-color: rgba(0, 255, 255, 0.156);
 }
-#plaatje {
+
+.plaatjeRechts {
+  position: absolute;
   width: 30%;
-  background-color: red;
-  float:right;
   margin: 1%;
   padding: 1%;
-  margin-right: 10%;
 }
 
-#plaatje {
+.plaatjeLinks {
+  position: absolute;  
   width: 30%;
-    background-color: red;
-    float:left;
     margin: 1%;
     padding: 1%;
-    margin-left: 12%;
   }
+
+  .plaatjeRechts2 {
+    position: absolute;
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    margin-right: 10%;
+  }
+
+  .plaatjeLinks2 {
+    position: absolute;  
+    width: 30%;
+      margin: 1%;
+      padding: 1%;
+      margin-left: 12%;
+    }
 
 article {
   width: 60%;
   background-color:  #4D84F0;
-  float:left;
   clear:both;
   margin: 1%;
   padding: 1%;
 }
 
 footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
+  width: 95,5%;
   background-color: #5274DB;
   color: black;
   text-align: center;
-  height: 60px;
+  height: 20px;
   margin-top: 0;
   padding: 20px;
   font-size: 17px;
@@ -81,3 +93,8 @@ h4 {
    font-size: 9pt;
    color: white;
 }
+
+.plaatje-1{
+  float: left;
+  padding: 100px;
+} 
